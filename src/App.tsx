@@ -23,7 +23,6 @@ function App() {
         <Playlist
           key={playlistData.name}
           name={playlistData.name}
-          musicas={playlistData.musicas}
           banda={playlistData.banda}
           url={playlistData.url}
           genero={playlistData.genero}
